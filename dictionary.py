@@ -1,5 +1,24 @@
 dic = {3 : 'test', 'a' : 'ate'}
 
+#dic 값 수정
+dict = { 'one' : 0, 'two' : 2 }
+dict['one'] = 1
+
+#dic값 추가
+dict = { 'one' : 1, 'two' : 2 }
+dict['three'] = 3
+
+#dic 삭제
+dict = { 'one' : 1, 'two' : 2, 'three' : 3 }
+del(dict['one'])
+dict.pop('one')
+
+#dic 결합
+dic1 = {1:10, 2:20}
+dic2 = {1:100, 3:300}
+dic1.update(dic2)
+print(dic1)
+
 # Dic Key 값 List로 출력
 key_list = list(dic.keys())
 print(key_list)
