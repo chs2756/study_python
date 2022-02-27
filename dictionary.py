@@ -1,3 +1,6 @@
+#dict 가 list보다 in 으로 안에 있는 값을 검색할 때 훨씬 빠르다
+
+
 dic = {3 : 'test', 'a' : 'ate'}
 
 #dic 값 수정
