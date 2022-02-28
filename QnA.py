@@ -23,3 +23,8 @@ def solution(phone_book):
                 return False
     return True
   
+#List 생성시 for, if 사용하기
+test_list = [x for i in range(100) if x%3 ==0]
+
+#sorting 시 key로 lambda 사용하기
+test_List = sorted(key=lambda x : x[1])
